@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="btsdigital.kz.ui.login.SearchFragment"
+        android:label="search_fragment"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_imageFragment"
+            app:destination="@+id/imageFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popExitAnim="@anim/slide_null"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="btsdigital.kz.ui.login.ImageFragment"
+        android:label="image_fragment"
+        tools:layout="@layout/fragment_image"/>
+    <action
+        android:id="@+id/action_global_launchFragment"
+        app:destination="@id/searchFragment" />
+</navigation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Intro -->
+    <integer name="intro_upper_half_weight">5</integer>
+    <integer name="intro_lower_half_weight">5</integer>
+
+    <integer name="screen_slide_animation_duration">250</integer>
+
+    <integer name="rotation_animation_duration">300</integer>
+
+    <integer name="cross_fade_animation_duration">200</integer>
+    <integer name="content_switcher_animation_duration">100</integer>
+
+    <integer name="iban_length">20</integer>
+
+    <integer name="list_item_animation_duration">200</integer>
+
+    <integer name="activity_transition_duration">150</integer>
+
+    <integer name="view_visibility_animation_duration">100</integer>
+
+    <integer name="date_picker_min_width">250</integer>
+    <integer name="max_length_promo_desc">255</integer>
+    <integer name="max_length_promo_name">30</integer>
+
+</resources>
